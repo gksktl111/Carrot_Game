@@ -4,9 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- 다양한 아이콘 사용 가능 -->
+    <script
+      src="https://kit.fontawesome.com/75b76eb5b2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="src/main.js" defer></script>
+    <title>CarrotGame</title>
   </head>
   <body>
-    asdad
+    <section class="container">
+      <div class="background">
+        <div class="game__ui">
+          <button class="start__btn">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <button class="pause__btn">
+            <i class="fa-solid fa-square"></i>
+          </button>
+          <div class="timer__container">
+            <span class="timer">0</span>
+          </div>
+          <div class="score__container">
+            <span class="score"></span>
+          </div>
+        </div>
+
+        <div class="game__stage">
+          <button class="carrot" id="carrot1"></button>
+          <button class="carrot" id="carrot2"></button>
+          <button class="carrot" id="carrot3"></button>
+          <button class="carrot" id="carrot4"></button>
+          <button class="carrot" id="carrot5"></button>
+          <button class="carrot" id="carrot6"></button>
+          <button class="carrot" id="carrot7"></button>
+          <button class="carrot" id="carrot8"></button>
+          <button class="carrot" id="carrot9"></button>
+          <button class="carrot" id="carrot10"></button>
+
+          <button class="bug" id="bug1"></button>
+          <button class="bug" id="bug2"></button>
+          <button class="bug" id="bug3"></button>
+          <button class="bug" id="bug4"></button>
+          <button class="bug" id="bug5"></button>
+          <button class="bug" id="bug6"></button>
+          <button class="bug" id="bug7"></button>
+          <button class="bug" id="bug8"></button>
+          <button class="bug" id="bug9"></button>
+          <button class="bug" id="bug10"></button>
+
+          <div class="game__result">
+            <button class="re__start__btn">
+              <i class="fa-solid fa-rotate-right"></i>
+            </button>
+            <div class="game__result__text"></div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
